@@ -1,67 +1,63 @@
 import type { CampsiteConfig } from "../types";
 
-/**
- * Olachgut Camping GmbH — St. Georgen am Kreischberg, Steiermark.
- * Quelle: leads/olachgut/raw/digest (Stand Scrape). 100 % quellbelegt, Du-Anrede.
- * Design FIX: kein theme (Original-Palette), heroVariant "center".
- */
 const IMG = "/campsites/olachgut";
 
 const olachgut: CampsiteConfig = {
-  name: "Camping Olachgut",
+  name: "Olachgut",
   shortName: "Olachgut",
   slug: "olachgut",
   ort: "St. Georgen am Kreischberg",
   region: "Steiermark",
-  brandKind: "5-Sterne-Camping am Bauernhof",
+  brandKind: "Camping · Bauernhof · Reithof",
   regionLong: "Region Murau-Kreischberg · Obersteiermark · Österreich",
 
   heroVariant: "center",
 
-  claim: "Fünf-Sterne-Camping am Erlebnis-Bauernhof",
-  claimEmphasis: "Erlebnis-Bauernhof",
-  emailDetail: "euer Erlebnis-Sanitärhaus mit der Felsendusche unterm Wasserfall",
+  claim: "Camping, Bauernhof und Reithof am Kreischberg",
+  claimEmphasis: "Bauernhof und Reithof",
+  emailDetail: "euer Sanitärhaus mit der Felsendusche unterm Wasserfall",
   intro:
-    "Fünf-Sterne-Komfort auf zehn Hektar Wiese, ein Erlebnis-Bauernhof mit seltenen Tierrassen und eine eigene Reithalle — am Olachgut in St. Georgen verbringst du deinen Urlaub mitten in der Region Murau-Kreischberg.",
+    "Auf einem 10 Hektar großen Wiesengelände am Fuß des Kreischbergs findest du Fünf-Sterne-Camping, einen Erlebnis-Bauernhof mit seltenen Tierrassen und einen eigenen Reithof — Urlaub, bei dem jeder in der Familie seinen Platz hat.",
 
-  logo: { src: `${IMG}/logo-9d2fbfce6f.png`, alt: "Olachgut Logo" },
+  logo: { src: `${IMG}/logo.png`, alt: "Olachgut Logo" },
 
   statement: {
-    text: "Bei uns wohnst du auf zehn Hektar Wiese — zwischen Komfortstellplatz, Reithalle und einem Bauernhof voller Tiere.",
-    emphasis: "zehn Hektar Wiese",
+    text: "Bei uns schläfst du im Wohnwagen und hast trotzdem Reithalle, Bauernhof und Hundeparcours gleich vor dem Vorzelt.",
+    emphasis: "gleich vor dem Vorzelt",
   },
 
   pillars: [
     {
       title: "Fünf-Sterne-Camping",
-      text: "Komfortstellplätze mit Strom, Wasser und Abwasser, ein Erlebnis-Sanitärhaus und Platz auf drei sonnigen Wiesenebenen.",
-      image: { src: `${IMG}/gallery-fe26a7916d.webp`, alt: "Campingfamilie unter dem Vorzelt am Olachgut, Murau-Kreischberg" },
+      text: "Komfortstellplätze mit Strom, Wasser und Abwasser auf einem weitläufigen Wiesengelände — ausgezeichnet als einer der beliebtesten Plätze Österreichs.",
+      image: { src: `${IMG}/camping-stellplatz.webp`, alt: "Komfortstellplatz mit Wohnwagen am Olachgut, Bergblick" },
     },
     {
       title: "Erlebnis-Bauernhof",
-      text: "Kärntner Brillenschafe, Scheckenziegen, Noriker und Pinzgauer Kühe — am Olachgut leben seltene Tierrassen artgerecht und zum Anfassen nah.",
-      image: { src: `${IMG}/gallery-51205b08ad.webp`, alt: "Ziege auf der Bauernhofwiese am Olachgut" },
+      text: "Brillenschafe, Scheckenziegen, Noriker und Pinzgauer Kühe: Auf dem Hof leben auch vom Aussterben bedrohte Tierrassen ganz nah zum Anfassen.",
+      image: { src: `${IMG}/bauernhof-schaf.png`, alt: "Kind mit Brillenschaf am Erlebnis-Bauernhof Olachgut" },
     },
     {
-      title: "Reitparadies Olachgut",
-      text: "Eine eigene Reithalle, geprüftes Fachpersonal und geduldige Pferde: Reiten lernst du hier bei jedem Wetter, vom Kind bis zum Profi.",
-      image: { src: `${IMG}/gallery-46bb0ad205.webp`, alt: "Zwei Reiterinnen im Reitplatz am Olachgut mit Bergkulisse" },
+      title: "Eigener Reithof",
+      text: "Ob erste Reitstunde oder geübter Ausritt — in der eigenen Reithalle und am Reitplatz lernst du die Pferde Schritt für Schritt kennen.",
+      image: { src: `${IMG}/reiten-reitplatz.webp`, alt: "Reiterinnen am Reitplatz des Olachgut vor Bergkulisse" },
     },
   ],
 
   usps: [
-    "Fünf-Sterne-Campingplatz",
-    "Eigene Reithalle & Ponys",
+    "5-Sterne-Campingplatz",
+    "Eigene Reithalle",
     "Erlebnis-Bauernhof",
     "Doggyland für Hunde",
-    "Umweltzeichen-Betrieb",
+    "Österr. Umweltzeichen",
+    "Murau GästeCard",
   ],
 
   trust: {
-    heading: "Camping, Bauernhof und Reithof in einem",
-    headingEmphasis: "in einem",
+    heading: "Am Olachgut hat jeder seinen Platz",
+    headingEmphasis: "jeder seinen Platz",
     intro:
-      "Familie Feiel führt das Olachgut als Fünf-Sterne-Campingplatz, Erlebnis-Bauernhof und Reithof zugleich — ausgezeichnet mit dem österreichischen und europäischen Umweltzeichen für nachhaltigen Urlaub.",
+      "Familie Feiel führt das Olachgut als Bauernhof, Campingplatz und Reithof in einem — naturnah, mit dem österreichischen und europäischen Umweltzeichen ausgezeichnet und mitten in der Urlaubsregion Murau-Kreischberg.",
   },
 
   awards: [
@@ -70,181 +66,158 @@ const olachgut: CampsiteConfig = {
   ],
 
   hero: {
-    aerial: { src: `${IMG}/gallery-ea83586228.webp`, alt: "Wohnmobile auf der Campingwiese am Freizeitteich des Olachgut, Murau-Kreischberg" },
+    aerial: { src: `${IMG}/hero-olachgut.webp`, alt: "Weitläufiges Freizeitgelände des Olachgut mit Spielanlage und Bergen" },
+  },
+
+  breather: {
+    image: { src: `${IMG}/freizeitteich-pano.webp`, alt: "Wohnmobile am Freizeitteich des Olachgut vor bewaldeten Bergen" },
+    line: "Am Freizeitteich verlangsamt sich der Sommertag ganz von selbst.",
   },
 
   camping: {
-    heading: "Dein Stellplatz am Olachgut",
+    heading: "Fünf Sterne auf zehn Hektar",
     intro:
-      "Zehn Hektar Wiese auf drei Ebenen, gegliedert durch alte Laub- und Nadelbäume: Komfortstellplätze mit allem Anschluss, ein Erlebnis-Sanitärhaus und jede Menge Platz zum Spielen.",
+      "Vom Komfortstellplatz ins Grüne: weitläufige Wiesen auf drei Ebenen, ein Erlebnis-Sanitärhaus und jede Menge Platz zum Ankommen.",
     features: [
       {
         title: "Komfortstellplätze",
-        text: "Alle Plätze mit Strom-, Wasser- und Abwasseranschluss (Eurostecker, 16 Ampere) — Dauerplätze zusätzlich mit fixem Flüssiggasanschluss.",
-        image: { src: `${IMG}/gallery-e73355da28.webp`, alt: "Komfortstellplatz mit Wohnwagen und Vorzelt am Olachgut" },
+        text: "Alle Stellplätze haben Strom-, Wasser- und Abwasseranschluss (Eurostecker, 16 A) — Dauerplätze zusätzlich mit fixem Flüssiggasanschluss.",
+        image: { src: `${IMG}/camping-komfort.webp`, alt: "Familie am Wohnwagen mit Vorzelt am Komfortstellplatz Olachgut" },
       },
       {
         title: "Erlebnis-Sanitärhaus",
-        text: "Duschen unter dem Wasserfall, eine Lichterdusche und ein barrierefreier Sanitärraum — hier wird das Waschen zum Erlebnis.",
-        image: { src: `${IMG}/amenity-585f67edf7.webp`, alt: "Erlebnis-Sanitärhaus mit Felswänden am Olachgut" },
+        text: "Felsendusche unter dem Wasserfall, Lichterdusche und ein barrierefreier Sanitärraum machen aus dem Sanitärhaus ein kleines Erlebnis.",
+        image: { src: `${IMG}/sanitaerhaus.webp`, alt: "Erlebnis-Sanitärhaus mit Felsenwand und Dusche am Olachgut" },
       },
       {
-        title: "Eigener Freizeitteich",
-        text: "Am hauseigenen Freizeitteich kommen Erholungssuchende und planschende Kinder gleichermaßen voll auf ihre Kosten.",
-        image: { src: `${IMG}/activity-14284e9e43.webp`, alt: "Kinder mit Schlauchboot am Freizeitteich des Olachgut" },
+        title: "Plätze im 10-ha-Wiesengelände",
+        text: "Ein 10 Hektar großes Wiesengrundstück auf drei Ebenen, durch dichte Reihen von Laub- und Nadelbäumen gegliedert — viel Grün zwischen den Plätzen.",
+        image: { src: `${IMG}/camping-wiese.webp`, alt: "Zelt und Wohnmobil im baumbestandenen Wiesengelände des Olachgut" },
       },
       {
-        title: "Doggyland & Agility",
-        text: "Hunde sind herzlich willkommen — im Doggyland warten ein Agilityparcours und viel Auslauf auf deinen Vierbeiner.",
-        image: { src: `${IMG}/gallery-c79436ea3c.webp`, alt: "Hund springt durch den Reifen im Doggyland am Olachgut" },
+        title: "Spiel & Action am Platz",
+        text: "Street-Soccer-Platz, Veranstaltungspavillon, Hundeagility- und 3D-Bogenparcours sowie viel Wiese zum Toben gehören einfach dazu.",
+        image: { src: `${IMG}/spiel-trampolin.webp`, alt: "Kind springt auf dem Trampolin am Olachgut vor Bergpanorama" },
       },
       {
-        title: "Dauercamping",
-        text: "Dein zweites Zuhause: Dauer- und Saisonplätze für alle, die das Olachgut zu jeder Jahreszeit genießen möchten.",
-        image: { src: `${IMG}/gallery-cf0a4ce258.webp`, alt: "Dauercamper mit Wohnwagen und Sonnensegel am Olachgut" },
+        title: "Hunde herzlich willkommen",
+        text: "Im Doggyland mit eigenem Hundeagilityparcours ist dein Vierbeiner gern gesehener Gast — Hund pro Nacht € 5.",
+        image: { src: `${IMG}/doggyland.webp`, alt: "Hund springt durch einen Reifen im Doggyland am Olachgut" },
       },
       {
-        title: "Freizeitanlage & Sport",
-        text: "Street-Soccer-Platz, Hüpfkissen, Riesenschach, Veranstaltungspavillon und ein 3D-Bogenparcours — hier kommt keine Langeweile auf.",
-        image: { src: `${IMG}/gallery-8c2a0636c5.webp`, alt: "Freizeitanlage mit Hüpfkissen und Riesenschach am Olachgut" },
-      },
-    ],
-  },
-
-  mobilheime: {
-    heading: "Unterkünfte am Bauernhof",
-    intro:
-      "Kein Zelt dabei? Im Bauernhaus und in der alten Mühle warten Ferienwohnungen, ein Ferienhaus und gemütliche Komfortzimmer auf dich.",
-    items: [
-      {
-        name: "Appartements im Bauernhaus",
-        kind: "Ferienwohnung Typ B · 3–4 Personen",
-        text: "Zwei gemütliche Appartements im Bauernhaus mit Schlafzimmer sowie Wohn- und Schlafraum.",
-        image: { src: `${IMG}/accommodation-a40edacab4.webp`, alt: "Bauernhaus mit Appartements am Olachgut" },
-        priceFrom: 105,
-        features: ["3–4 Personen", "Eigene Küche", "Mitten am Hof"],
-      },
-      {
-        name: "Ferienhaus mit zwei Wohnungen",
-        kind: "Ferienwohnung Typ C · 4–5 Personen",
-        text: "Großzügiges Ferienhaus mit zwei Appartements, Kinderzimmer und eigenem Sanitärbereich.",
-        image: { src: `${IMG}/accommodation-dd0bde301d.webp`, alt: "Ferienhaus am Olachgut mit Blick auf die Hofwiese" },
-        priceFrom: 125,
-        features: ["4–5 Personen", "Kinderzimmer", "Voll ausgestattet"],
-      },
-      {
-        name: "Komfortzimmer",
-        kind: "Doppelzimmer mit Frühstück",
-        text: "Helle Komfortzimmer mit Frühstück oder Halbpension — ideal für einen kurzen Aufenthalt.",
-        image: { src: `${IMG}/gallery-dbaf6d7036.webp`, alt: "Komfortzimmer mit Holzbett am Olachgut" },
-        priceFrom: 50,
-        features: ["Frühstück möglich", "Halbpension buchbar", "Ruhige Lage"],
+        title: "Auch für Dauercamper",
+        text: "Entdecke das Olachgut als zweites Zuhause: Saison- und Jahresstellplätze stehen Dauercampern das ganze Jahr offen.",
+        image: { src: `${IMG}/camping-familie.webp`, alt: "Campingfamilie unter dem Sonnensegel am Olachgut" },
       },
     ],
   },
 
   kinder: {
-    heading: "Für kleine Bauernhof-Fans",
-    headingEmphasis: "Bauernhof-Fans",
+    heading: "Kinder kommen hier kaum zur Ruhe",
     intro:
-      "Ponys streicheln, Schafe füttern, auf dem Hüpfkissen toben — am Olachgut sind Kinder den ganzen Tag draußen und mittendrin.",
+      "Ponys, Hoftiere und viel Platz zum Toben — am Olachgut ist der Tag für die Kleinen schneller vorbei, als ihnen lieb ist.",
     features: [
       {
-        title: "Hüpfkissen & Spielwiese",
-        text: "Auf dem großen Hüpfkissen, beim Riesenschach und auf der weiten Spielwiese mit Bergblick ist den ganzen Tag etwas los.",
-        image: { src: `${IMG}/kids-e2b75fecf2.webp`, alt: "Kind springt auf dem Trampolin der Freizeitanlage am Olachgut" },
+        title: "Tiere zum Greifen nah",
+        text: "Brillenschafe, Ziegen und Ponys leben direkt am Hof — Streicheln, Staunen und Mithelfen sind hier ausdrücklich erwünscht.",
+        image: { src: `${IMG}/hof-ziege.webp`, alt: "Ziege auf der Bergwiese am Bauernhof Olachgut" },
       },
       {
-        title: "Ponys zum Liebhaben",
-        text: "Unsere geduldigen Ponys lassen sich striegeln, führen und bei den ersten Reitversuchen liebevoll an der Longe bewegen.",
-        image: { src: `${IMG}/gallery-e09bd00161.webp`, alt: "Mädchen führt ein Pony über die Wiese am Olachgut" },
+        title: "Erste Runden am Pony",
+        text: "Beim geführten Ponyreiten und der Ponymiete zum Selbstführen machen schon die Kleinsten ihre ersten Reiterfahrungen.",
+        image: { src: `${IMG}/kinder-pony.webp`, alt: "Mädchen führt ein Pony über die Wiese am Olachgut" },
       },
       {
-        title: "Tiere zum Anfassen",
-        text: "Brillenschafe, Ziegen und Hofkatzen freuen sich über Besuch — am Erlebnis-Bauernhof kommen Kinder den Tieren ganz nah.",
-        image: { src: `${IMG}/award-4585a74394.png`, alt: "Kind umarmt ein Schaf am Bauernhof des Olachgut" },
+        title: "Spielen ohne Ende",
+        text: "Gokarts, Spielgeräte und weite Wiesen sorgen dafür, dass zwischen Hof und Campingplatz nie Langeweile aufkommt.",
+        image: { src: `${IMG}/kinder-spiel.webp`, alt: "Kinder mit einem Gokart auf dem Gelände des Olachgut" },
       },
     ],
   },
 
   aktivitaeten: {
-    heading: "Aktiv in Murau-Kreischberg",
+    heading: "Rund ums Olachgut ist immer Saison",
     intro:
-      "Vom Sattel auf den Berg: Reiten, Radeln, Wandern und im Winter Skifahren am Kreischberg — rund ums Olachgut wird es nie langweilig.",
+      "Baden, Reiten, Wandern und im Winter direkt auf die Piste — die Region Murau-Kreischberg liegt dir das ganze Jahr zu Füßen.",
     items: [
       {
-        title: "Reitstunden in der Reithalle",
-        text: "Geprüftes Fachpersonal unterrichtet im Sommer in der eigenen Reithalle — vom Schnuppern an der Longe bis zur Privatstunde.",
-        image: { src: `${IMG}/gallery-c180269d90.webp`, alt: "Kind reitet in der Reithalle am Olachgut" },
+        title: "Baden am Freizeitteich",
+        text: "Am hauseigenen Freizeitteich wird geplanscht, gepaddelt und die Sonne genossen — Erholung beginnt direkt am Platz.",
+        image: { src: `${IMG}/freizeitteich.webp`, alt: "Kinder mit Schlauchboot am Freizeitteich des Olachgut" },
       },
       {
-        title: "Radeln durch die Region",
-        text: "Direkt vom Hof starten Rad- und Wanderwege durch die grüne Region Murau hinein in die Obersteiermark.",
-        image: { src: `${IMG}/gallery-0591d4535b.webp`, alt: "Kind mit Fahrrad vor dem Olachgut in Murau-Kreischberg" },
+        title: "Reiten in der Reithalle",
+        text: "In der überdachten Reithalle und am Reitplatz finden Anfänger wie Geübte bei jedem Wetter ihre Reitstunde.",
+        image: { src: `${IMG}/reithalle.webp`, alt: "Kind reitet in der Reithalle am Olachgut" },
       },
       {
-        title: "Bergsommer am Kreischberg",
-        text: "Mit der Gondel hinauf und über Almwiesen zurück — der Kreischberg liegt nur wenige Minuten vom Olachgut entfernt.",
-        image: { src: `${IMG}/gallery-14af182217.webp`, alt: "Familie wandert unter der Gondelbahn am Kreischberg" },
+        title: "Wandern am Kreischberg",
+        text: "Mit der Gondel hinauf und über sonnige Almwege zurück — Wanderungen für die ganze Familie starten gleich um die Ecke.",
+        image: { src: `${IMG}/wandern-gondel.webp`, alt: "Familie wandert unter der Gondelbahn am Kreischberg" },
       },
       {
         title: "Skifahren am Kreischberg",
-        text: "Im Winter wird das Olachgut zum Basislager: Das Skigebiet Kreischberg mit Kinderland ist schnell erreicht.",
-        image: { src: `${IMG}/gallery-3fd8f30589.webp`, alt: "Kinder beim Skikurs am Kreischberg nahe dem Olachgut" },
+        text: "Das Skigebiet Kreischberg mit seinen breiten Pisten liegt nur wenige Minuten entfernt — Winterspaß für Groß und Klein.",
+        image: { src: `${IMG}/ski-kreischberg.webp`, alt: "Kinder fahren Ski am Kreischberg" },
       },
       {
-        title: "Winter abseits der Piste",
-        text: "Schneeschuhwandern und stille Winterwege führen direkt aus der Region hinauf in die verschneiten Wälder.",
-        image: { src: `${IMG}/activity-561a4155ce.webp`, alt: "Schneeschuhwanderin über dem winterlichen Murtal" },
+        title: "Golf & Murtalbahn",
+        text: "Golfen in der Region und Ausflüge mit der historischen Murtalbahn runden den aktiven Urlaub im Murtal ab.",
+        image: { src: `${IMG}/golf-murtalbahn.webp`, alt: "Golfplatz mit vorbeifahrender Murtalbahn in der Region Murau" },
       },
     ],
   },
 
   anreise: {
-    heading: "Dein Weg ins Murtal",
+    heading: "Dein Weg zum Olachgut",
     modes: [
       {
         title: "Mit dem Auto",
-        text: "Über die Tauernautobahn (A10) bis St. Michael im Lungau, dann via Tamsweg Richtung Murau und Kreischberg — der Ort liegt auf 864 m Seehöhe.",
+        text: "Über die S36 Murtal Schnellstraße bis Scheifling, weiter auf B317 und B97 Richtung Murau — das Olachgut liegt bei St. Georgen am Kreischberg, nahe der Talstation Kreischberg.",
       },
       {
-        title: "Aus dem Osten",
-        text: "Aus Wien über Semmering, Bruck an der Mur, Judenburg und Scheifling nach Murau, dann weiter Richtung Kreischberg.",
+        title: "Mit der Bahn",
+        text: "Bahnhof St. Georgen ob Murau bzw. Murau-Stolzalpe; die nostalgische Murtalbahn bringt dich durchs Tal — letzte Minuten per Abholung auf Anfrage.",
       },
       {
-        title: "Mit Bahn & Bus",
-        text: "Anreise per Bahn ins Murtal; Murtalbahn und Regionalbusse bringen dich bis in die Region Murau-Kreischberg.",
+        title: "Mit dem Flugzeug",
+        text: "Die Flughäfen Salzburg, Graz und Klagenfurt liegen jeweils rund 1,5 Stunden Fahrt entfernt.",
       },
     ],
   },
 
   galerie: {
-    heading: "Olachgut in Bildern",
-    headingEmphasis: "Olachgut",
+    heading: "Ein Tag am Olachgut",
+    headingEmphasis: "am Olachgut",
     intro:
-      "Vom Willkommensbogen bis zur Bauernhofwiese — ein paar Eindrücke aus dem Urlaub am Olachgut.",
+      "Vom Empfang unter dem Olachgut-Tor bis zum verschneiten Gipfel — ein paar Eindrücke vom Hof, den Tieren und der Region.",
     tag: "Sommer & Winter",
-    moreCount: 40,
+    moreCount: 24,
     images: [
-      { src: `${IMG}/gallery-1e5418bf16.webp`, alt: "Golferin mit Murtalbahn im Hintergrund, nahe dem Olachgut" },
-      { src: `${IMG}/gallery-4fd1738ee3.webp`, alt: "Kinder beim gemeinsamen Essen am Olachgut" },
-      { src: `${IMG}/gallery-7036a58ccd.webp`, alt: "Enten am Wasser am Olachgut" },
-      { src: `${IMG}/gallery-a8835ccd2e.webp`, alt: "Willkommensbogen am Eingang zum Olachgut" },
+      { src: `${IMG}/olachgut-tor.webp`, alt: "Eingangstor mit Schriftzug Olachgut, Kinder auf Gokarts" },
+      { src: `${IMG}/bauernhaus.webp`, alt: "Bauernhaus des Olachgut mit blühenden Rosen" },
+      { src: `${IMG}/haflinger.webp`, alt: "Haflinger-Pferd mit Betreuerin am Olachgut" },
+      { src: `${IMG}/winterwandern.webp`, alt: "Winterwanderung mit Blick über die verschneiten Berge der Region Murau" },
     ],
   },
 
   booking: {
-    heading: "Sichere dir deinen Platz am Olachgut",
-    headingEmphasis: "am Olachgut",
+    heading: "Dein Olachgut-Urlaub beginnt hier",
+    headingEmphasis: "Olachgut-Urlaub",
     intro:
-      "Sag uns Zeitraum und Personen — Familie Feiel meldet sich persönlich mit deiner Verfügbarkeit und einem ehrlichen Preis.",
+      "Wähle Unterkunft, Zeitraum und Personen — Familie Feiel meldet sich persönlich mit deiner Verfügbarkeit am Olachgut.",
     pricesArePlaceholder: false,
     priceNote:
-      "Richtpreise Vor-/Nachsaison: Stellplatz inkl. 5 kW Strom & Dusche für 2 Personen; Campingpod für 2 Pers. inkl. Bettwäsche & Geschirr ab € 66,50 (Vor-/Nachsaison), € 70 im Winter & Sommer — im Sommer höher; zzgl. Nächtigungsabgabe (€ 2) & Umweltbeitrag (€ 1) pro Nacht.",
-    highlight: { title: "Fünf Sterne am Bauernhof", text: "Komfortcamping, Reithalle und Tiere — alles auf einem Platz." },
+      "ab-Preise pro Nacht in der jeweils günstigsten Saison 2025/26 · Komfortstellplatz für 2 Personen inkl. 5 kW Strom & Dusche · Campingpod inkl. 2 Personen, Bettwäsche & Geschirr · Ferienwohnung/Ferienhaus je Einheit · zzgl. Ortstaxe (€ 2–2,50/Person) und Endreinigung — andere Saisonen höher.",
+    highlight: {
+      title: "Vier Urlaube an einem Ort",
+      text: "Camping, Bauernhof, Reithof und Doggyland — am Olachgut musst du dich nicht entscheiden.",
+    },
     categories: [
-      { id: "stellplatz", label: "Komfortstellplatz", perNight: 39, perExtraGuest: 11 },
-      { id: "campingpod", label: "Campingpod (2 Pers.)", perNight: 66.5, perExtraGuest: 16 },
+      { id: "stellplatz", label: "Komfortstellplatz", perNight: 39, perExtraGuest: 11.2 },
+      { id: "campingpod", label: "Campingpod (2 Pers.)", perNight: 66.5, perExtraGuest: 13 },
+      { id: "ferienwohnung", label: "Ferienwohnung (4 Pers.)", perNight: 105 },
+      { id: "ferienhaus", label: "Ferienhaus XXL (bis 17 Pers.)", perNight: 220 },
     ],
   },
 
@@ -265,12 +238,11 @@ const olachgut: CampsiteConfig = {
       href: "#camping",
       children: [
         { label: "Stellplätze", href: "#camping" },
-        { label: "Sanitär & Freizeit", href: "#camping" },
+        { label: "Sanitärhaus", href: "#camping" },
       ],
     },
-    { label: "Bauernhof & Kinder", href: "#kinder" },
-    { label: "Reiten & Aktiv", href: "#aktivitaeten" },
-    { label: "Unterkünfte", href: "#mobilheime" },
+    { label: "Für Kinder", href: "#kinder" },
+    { label: "Aktiv & Reiten", href: "#aktivitaeten" },
     {
       label: "Preise & Anreise",
       href: "#booking",
