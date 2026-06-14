@@ -29,17 +29,17 @@ const olachgut: CampsiteConfig = {
   pillars: [
     {
       title: "Fünf-Sterne-Camping",
-      text: "Komfortstellplätze mit Strom, Wasser und Abwasser auf einem weitläufigen Wiesengelände — ausgezeichnet als einer der beliebtesten Plätze Österreichs.",
+      text: "Komfortstellplätze mit Strom, Wasser und Abwasser auf großem Wiesengelände — einer der beliebtesten Plätze Österreichs.",
       image: { src: `${IMG}/camping-stellplatz.webp`, alt: "Komfortstellplatz mit Wohnwagen am Olachgut, Bergblick" },
     },
     {
       title: "Erlebnis-Bauernhof",
-      text: "Brillenschafe, Scheckenziegen, Noriker und Pinzgauer Kühe: Auf dem Hof leben auch vom Aussterben bedrohte Tierrassen ganz nah zum Anfassen.",
+      text: "Brillenschafe, Scheckenziegen und Noriker: Auf dem Hof leben seltene, vom Aussterben bedrohte Tierrassen zum Anfassen nah.",
       image: { src: `${IMG}/bauernhof-schaf.png`, alt: "Kind mit Brillenschaf am Erlebnis-Bauernhof Olachgut" },
     },
     {
       title: "Eigener Reithof",
-      text: "Ob erste Reitstunde oder geübter Ausritt — in der eigenen Reithalle und am Reitplatz lernst du die Pferde Schritt für Schritt kennen.",
+      text: "Ob erste Reitstunde oder geübter Ausritt — in Reithalle und Reitplatz lernst du die Pferde Schritt für Schritt kennen.",
       image: { src: `${IMG}/reiten-reitplatz.webp`, alt: "Reiterinnen am Reitplatz des Olachgut vor Bergkulisse" },
     },
   ],
@@ -81,17 +81,17 @@ const olachgut: CampsiteConfig = {
     features: [
       {
         title: "Plätze im 10-ha-Wiesengelände",
-        text: "Ein 10 Hektar großes Wiesengrundstück auf drei Ebenen, durch dichte Reihen von Laub- und Nadelbäumen gegliedert — viel Grün zwischen den Plätzen.",
+        text: "10 Hektar Wiesengelände auf drei Ebenen, durch dichte Laub- und Nadelbaumreihen gegliedert — viel Grün zwischen den Plätzen.",
         image: { src: `${IMG}/camping-wiese.webp`, alt: "Zelt und Wohnmobil im baumbestandenen Wiesengelände des Olachgut vor Bergkulisse" },
       },
       {
         title: "Komfortstellplätze",
-        text: "Alle Stellplätze haben Strom-, Wasser- und Abwasseranschluss (Eurostecker, 16 A) — Dauerplätze zusätzlich mit fixem Flüssiggasanschluss.",
+        text: "Alle Stellplätze mit Strom-, Wasser- und Abwasseranschluss (Eurostecker, 16 A); Dauerplätze zusätzlich mit Flüssiggasanschluss.",
         image: { src: `${IMG}/camping-komfort.webp`, alt: "Familie am Wohnwagen mit Vorzelt am Komfortstellplatz Olachgut" },
       },
       {
         title: "Erlebnis-Sanitärhaus",
-        text: "Felsendusche unter dem Wasserfall, Lichterdusche und ein barrierefreier Sanitärraum machen aus dem Sanitärhaus ein kleines Erlebnis.",
+        text: "Felsendusche unterm Wasserfall, Lichterdusche und barrierefreier Sanitärraum machen das Sanitärhaus zum kleinen Erlebnis.",
         image: { src: `${IMG}/sanitaerhaus.webp`, alt: "Erlebnis-Sanitärhaus mit Felsenwand und Dusche am Olachgut" },
       },
       {
