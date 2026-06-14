@@ -80,6 +80,11 @@ const olachgut: CampsiteConfig = {
       "Vom Komfortstellplatz ins Grüne: weitläufige Wiesen auf drei Ebenen, ein Erlebnis-Sanitärhaus und jede Menge Platz zum Ankommen.",
     features: [
       {
+        title: "Plätze im 10-ha-Wiesengelände",
+        text: "Ein 10 Hektar großes Wiesengrundstück auf drei Ebenen, durch dichte Reihen von Laub- und Nadelbäumen gegliedert — viel Grün zwischen den Plätzen.",
+        image: { src: `${IMG}/camping-wiese.webp`, alt: "Zelt und Wohnmobil im baumbestandenen Wiesengelände des Olachgut vor Bergkulisse" },
+      },
+      {
         title: "Komfortstellplätze",
         text: "Alle Stellplätze haben Strom-, Wasser- und Abwasseranschluss (Eurostecker, 16 A) — Dauerplätze zusätzlich mit fixem Flüssiggasanschluss.",
         image: { src: `${IMG}/camping-komfort.webp`, alt: "Familie am Wohnwagen mit Vorzelt am Komfortstellplatz Olachgut" },
@@ -88,11 +93,6 @@ const olachgut: CampsiteConfig = {
         title: "Erlebnis-Sanitärhaus",
         text: "Felsendusche unter dem Wasserfall, Lichterdusche und ein barrierefreier Sanitärraum machen aus dem Sanitärhaus ein kleines Erlebnis.",
         image: { src: `${IMG}/sanitaerhaus.webp`, alt: "Erlebnis-Sanitärhaus mit Felsenwand und Dusche am Olachgut" },
-      },
-      {
-        title: "Plätze im 10-ha-Wiesengelände",
-        text: "Ein 10 Hektar großes Wiesengrundstück auf drei Ebenen, durch dichte Reihen von Laub- und Nadelbäumen gegliedert — viel Grün zwischen den Plätzen.",
-        image: { src: `${IMG}/camping-wiese.webp`, alt: "Zelt und Wohnmobil im baumbestandenen Wiesengelände des Olachgut" },
       },
       {
         title: "Spiel & Action am Platz",
